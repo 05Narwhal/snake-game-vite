@@ -1,0 +1,7 @@
+@use '../../../styles/mixins.scss' as *;
+
+main {
+  @include centerFlex();
+  width: 100vw;
+  height: 100vh;
+}
